@@ -9,7 +9,7 @@ data = {
 print(pd.__version__)
 df=pd.DataFrame(data)
 # df.to_csv('C:/Users/27132/Desktop/大模型/pandas.csv',index=False,encoding='utf-8-sig')
-rdata=pd.read_csv('C:/Users/27132/Desktop/大模型/pandas.csv',encoding='utf-8-sig')
+rdata=pd.read_csv('C:/Users/zhangpc/Desktop/ML/ML/pandas.csv',encoding='utf-8-sig')
 print(rdata)
 print(rdata[['姓名','年龄']])
 print(rdata.iloc[:2])
